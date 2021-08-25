@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: #374151;
+  --secondary-color: #1f2937;
+  --font-color: #d1d5db;
+  --border-color: #111827;
+}
+body {
+  background-color: var(--secondary-color);
+  color: var(--font-color);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.good-songs {
+  max-width: 600px;
+  margin: 2rem auto;
+  background-color: var(--primary-color);
+  border-radius: 10px;
+  border: 1px solid var(--border-color);
+}
+.good-songs h1 {
+  padding: 1.2rem 1rem 1rem 1rem;
+  text-align: center;
+}
+.good-songs p {
+  padding: 1rem;
+  font-size: 1.2rem;
+  text-align: center;
+}
+.btn {
+  padding: 1rem;
+  display: flex;
+
+  justify-content: space-evenly;
+  width: 90%;
+  margin: auto;
+  border-bottom: 1px solid var(--border-color);
+}
+.btn-genre {
+  font-size: 1rem;
+  width: 20%;
+  background-color: var(--secondary-color);
+  padding: 0.5rem;
+  text-align: center;
+  border-radius: 10px;
+  border: 1px solid var(--font-color);
+
+  outline: none;
+  cursor: pointer;
+  color: var(--font-color);
+}
+.song-list {
+  padding: 1rem;
+}
+article {
+  background-color: var(--secondary-color);
+  padding: 1rem;
+  display: flex;
+  justify-content: space-around;
+
+  width: 90%;
+  margin: 1rem auto;
+  border-radius: 10px;
+  border: 1px solid var(--font-color);
+}
+article:hover {
+  box-shadow: 2px 2px 6px black;
+  cursor: pointer;
+}
+
+.song-list-content {
+  width: 50%;
+  margin: 0 auto;
+  padding: 0.5rem;
+}
+.song-list-title {
+  font-weight: bold;
+  font-size: larger;
+
+  padding-bottom: 0.5rem;
+}
+.song-list-singer {
+  padding-bottom: 0.5rem;
+}
+.song-list-release {
+  padding-bottom: 0.5rem;
+}
+.song-list-movie {
+  padding-bottom: 0.5rem;
+}
+
+.song-list-img img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
